@@ -4,7 +4,7 @@
 
 Reinventing The Wheel?!!!!
 
-I use [Yolo_Label](https://github.com/developer0hye/Yolo_Label) to label object.
+I'm using [Yolo_Label](https://github.com/developer0hye/Yolo_Label) to label object.
 
  I do augmentation for YOLO training, but I didn't want to do labeling work after the augmentation. This program greatly reduces the work by padding the txt file as well as padding the image. The default is to inflate 24 times the image.
 
