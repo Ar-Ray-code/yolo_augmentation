@@ -13,15 +13,17 @@ I'm using [Yolo_Label](https://github.com/developer0hye/Yolo_Label) to label obj
 - Python3.6 or later (Windows10, Ubuntu)
 - OpenCV3 or later
 
-## Usage
+## Usage(CUI)
 
 - Image is from https://github.com/developer0hye/Yolo_Label. Suppose the file is already labeled.
 
 ![初期状態](example_imgs/data1.png)
 
-- Enter the following command.
+- Execute the following command.
 
    `$ python3 yolo_argmentation.py -p <path> -f jpg`
+   
+   For example : `python3 yolo_argmentation.py -p data`
 
 ![実行画面_ログ](example_imgs/data2.png)
 
@@ -35,7 +37,21 @@ I'm using [Yolo_Label](https://github.com/developer0hye/Yolo_Label) to label obj
 
 ![files](example_imgs/data4.png)
 
-## Options
+## Usage(GUI)
+
+- Dependent of PyQt5
+
+- Execute this command to start program. `python3 yolo_argmentation_gui.py`
+
+- Press "Select Folder" button to select the target image folder.
+
+- Press "Start" button to start process.(Progress bar on the terminal.)
+-  The word "Finish" will appear when the process ends
+
+
+![how_to_use_gui_LI](example_imgs/how_to_use_gui.jpg)
+
+## Options(For CUI)
 
 - -h or --help : Show help
 - -f or --format : Specify files format. (default : jpg)
